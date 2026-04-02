@@ -30,6 +30,7 @@ const ProcessFeed = async (list, cache) => {
                     category,
                     author,
                     link,
+                    cover: data.article_cover
                 };
             });
 
